@@ -5,6 +5,9 @@ void main() {
     MaterialApp(
       title: 'I am poor',
       theme: ThemeData(primarySwatch: Colors.green),
+      darkTheme: ThemeData(
+          primarySwatch: Colors.grey,
+          scaffoldBackgroundColor: Color.fromRGBO(0, 0, 0, 0.3)),
       home: Scaffold(
         appBar: AppBar(
           title: Text('I am Poor'),
